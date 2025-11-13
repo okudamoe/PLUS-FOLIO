@@ -329,6 +329,11 @@ li {
   
 }
 
+.link-under-color {
+text-decoration: underline; /* 下線 */
+color: #1558d6;
+    }
+
 
 .square {
   width: 32px;
