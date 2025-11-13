@@ -381,6 +381,7 @@ rt {
   top: 0;
   display: flex;
   justify-content: center;
+  padding-right: 1rem;
 }
 
 .profile-wrapper {
