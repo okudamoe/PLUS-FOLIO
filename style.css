@@ -412,25 +412,7 @@ rt {
   filter: saturate(0.2);
   align-items: center;
   margin-top: 12px;
-  /* 1. アニメーションを定義 */
-  animation: fadeIn 1.5s ease-out forwards;
-  
-  /* * forwards: アニメーション終了後、最後の状態(opacity: 1)を維持します
-   * ease-out: ゆっくりと表示が完了します
-   * 1.5s: 1.5秒かけて表示します (この秒数はお好みで調整してください)
-   */
-}
-
-/* 2. アニメーションのキーフレームを定義 */
-@keyframes fadeIn {
-  /* アニメーション開始時 (透明) */
-  0% {
-    opacity: 0;
-  }
-  /* アニメーション終了時 (不透明) */
-  100% {
-    opacity: 1;
-  }
+ 
   
 }
 .profile-main-text {
