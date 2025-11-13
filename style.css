@@ -472,7 +472,7 @@ font-size: 1.6rem;
 .product-image {
   width: 464px;
   height: 300px;
-  object-fit: cover;
+  object-fit: unset;
   margin-bottom: 28px;
 }
 
