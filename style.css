@@ -757,11 +757,13 @@ font-size: 1.6rem;
   margin-left: 36px;
   display: flex;
   align-items: center;
+  display:none;
 }
 
 .contact-icon-instagram {
   width: 40px;
   margin-right: 12px;
+  display: none;
 }
 
 .contact-icon-x {
