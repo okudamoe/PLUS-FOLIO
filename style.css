@@ -477,8 +477,8 @@ font-size: 1.6rem;
 
 .product-image {
   width: 464px;
-  height: 300px;
-  object-fit: unset;
+  height: auto;
+  object-fit: content;
   margin-bottom: 28px;
 }
 
