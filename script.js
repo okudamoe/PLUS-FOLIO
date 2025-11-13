@@ -194,3 +194,31 @@ window.onload = function () {
   });
 };
 
+
+// ページが読み込まれたら実行
+document.addEventListener('DOMContentLoaded', () => {
+  
+  // 1. 監視対象の要素（.profile-img）を取得
+  const target = document.querySelector('.profile-img');
+
+  // もし要素が見つからなかったら、何もしない
+  if (!target) return;
+
+  // 2. 監視（IntersectionObserver）の設定
+  const observer = new IntersectionObserver((entries, observer) => {
+    // 監視対象の要素(entries[0])が画面内に入ったか(isIntersecting)判定
+    if (entries[0].isIntersecting) {
+      
+      // 画面内に入ったら .is-visible クラスを追加
+      target.classList.add('is-visible');
+      
+      // 監視を停止（一度表示されたら、もう監視する必要はないため）
+      observer.unobserve(target);
+    }
+  });
+
+  // 3. 監視を開始
+  observer.observe(target);
+});
+
+
