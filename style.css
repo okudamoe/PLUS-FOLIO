@@ -1054,8 +1054,27 @@ black-bg(ハンバーガーメニュー解除用bg)
     height: 240px;
     align-items: left;
     margin-bottom: 24px;
+    /* ▼ --- ここから下を追加 --- ▼ */
+  /* 最初は透明にしておく */
+  opacity: 0;
+  
+  /*（お好みで）少し下にずらしておく */
+  transform: translateY(20px); 
+  
+  /* 変化を滑らかにする（0.8秒かける） */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
+
+  /* 2. 画面に入った時にJSで追加されるクラス */
+.profile-img.is-visible {
+  /* 不透明にする */
+  opacity: 1;
+  /*（お好みで）元の位置に戻す */
+  transform: translateY(0); 
+}
+
+  
   rt {
     top: -5.2rem;
   }
