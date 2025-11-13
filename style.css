@@ -376,10 +376,11 @@ ruby {
   
 }
 rt {
-  position: relative;
   font-size: 40%;
   letter-spacing: 0em;
-  top: -5em;
+  top: 0;
+  didsplay: flex;
+  justify-contetent: center:
 }
 
 .profile-wrapper {
