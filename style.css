@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
 }
-h1,h2,h3 {.product-content :nth-child(odd)
+h1,h2,h3 .product-content :nth-child(odd) {
   font-weight: normal;
 }
 
@@ -20,6 +20,17 @@ body {
   font-style: normal;
   min-height:500px;
   }
+
+  .modal-open {
+    font-weight: 400;
+  }
+.product-title {
+  font-weight: 400;
+}
+
+.name {
+  font-weight: 500;
+}
 
    
  
