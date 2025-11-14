@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
 }
-h1,h2,h3 {
+h1,h2,h3 {.product-content :nth-child(odd)
   font-weight: normal;
 }
 
@@ -1266,7 +1266,7 @@ black-bg(ハンバーガーメニュー解除用bg)
   }
 
   .product-content :nth-child(odd) {
-    margin-right: 24px;
+    margin-right: 0;
 
   }
 
