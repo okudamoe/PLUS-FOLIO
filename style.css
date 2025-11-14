@@ -1106,6 +1106,7 @@ black-bg(ハンバーガーメニュー解除用bg)
 
   .contact-wrapper {
     padding: 0 20px;
+    margin-top: 20px;
   }
 
   .modal-content {
@@ -1161,7 +1162,7 @@ black-bg(ハンバーガーメニュー解除用bg)
   .copy-right {
     float: none;
     text-align: left;
-    margin-top: 24px;
+    margin-top: 80px;
   }
 
   .page-top {
