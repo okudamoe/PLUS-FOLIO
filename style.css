@@ -1163,6 +1163,7 @@ black-bg(ハンバーガーメニュー解除用bg)
     float: none;
     text-align: left;
     margin-top: 80px;
+    margin-bottom: 12px;
   }
 
   .page-top {
